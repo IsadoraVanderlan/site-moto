@@ -1,0 +1,185 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+img {
+    min-width: 50px;
+}
+
+/********************** HEADER **********************/
+.cor-header {
+    position: relative;
+    background: #C4C4C4;
+}
+
+.nav-item a{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: black;
+}
+
+/********************** SECTION 1 **********************/
+.section1 {
+    position: relative;
+}
+
+.topo img{
+    min-height: 250px;
+}
+
+.titulo {
+    position: absolute;
+}
+
+.titulo h1{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+
+/********************** SECTION 2 **********************/
+.section1 {
+    position: relative;
+}
+
+.row {
+    position: relative;
+}
+
+.descricao1 {
+    background: #C4C4C4;
+    position: relative;
+}
+
+.descricao1 h2{
+    margin-left: 0.8rem;
+}
+
+.modelo p {
+    margin-top: 3rem;
+    margin-bottom: -5rem;
+}
+
+.modelo img{
+    margin-bottom: 4rem;
+}
+
+/********************** SECTION 3 **********************/
+.section3 {
+    position: relative;
+    min-height: 550px;
+}
+.section3 img{
+    min-height: 550px;
+}
+.orcamento {
+    margin: 0 15rem 0 15rem;
+    margin-bottom: 5rem;
+}
+.caixa1-orcamento {
+    position: absolute;
+}
+
+.caixa-orcamento h2{
+    color: white;
+    text-transform: uppercase;
+}
+
+.form-group label{
+    color: white;
+}
+
+.contato {
+    list-style: none;   
+}
+
+.contatos a{
+    color: white;
+    display: flex;
+    justify-content: center;    
+    margin: 1.5rem;
+    text-decoration: none;  
+}
+
+/********************** SECTION 4 **********************/
+.section4 {
+    max-width: 800px;
+    text-align: center;
+}
+
+.section4 h1 {
+    margin: 5rem 0 5rem 0;
+}
+
+.modelo-pag img{
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
+
+/********************** FOOTER **********************/
+footer {
+    background: #C4C4C4;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+/********************** RESPONSIV **********************/
+@media (max-width: 500px) {
+    .modelo p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .titulo h1{
+        font-size: 28px;
+    }
+    .titulo button{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .descricao1 {
+        text-align: center;
+    }
+    .ml-4{
+        margin-left: 0 !important;
+    }
+    .modelo p {
+        text-align: center;
+    }
+    .modelo img {
+        margin-top: 3rem;
+        margin-bottom: 2rem;        
+    }
+    .orcamento {
+        margin: 0 2rem 0 2rem;
+    }
+    .orcamento h2{
+        font-size: 25px;
+    }
+    .contato h2{
+        font-size: 25px;
+    }
+    .section3 {
+        background: black;
+    }
+    .caixa-orcamento img {
+        display: none;
+    }
+}
+ 

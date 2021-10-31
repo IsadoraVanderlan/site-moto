@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Harley</title>
+</head>
+<body>
+
+    <div id="container"> <!-- CONTAINER -->
+        <header>
+            <nav class="navbar navbar-expand-sm container-fluid cor-header navbar-light" id="navbar">
+                <div class="container-fluid">
+            
+                  <!--Logo-->
+                  <a href="index.html"><img src="img/logo.png" alt="Logo da empresa"></a>                
+            
+                  <!--Menu hamburguer-->
+                  <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            
+                  <!--Navegação-->
+                  <div class="collapse navbar-collapse" id="nav-target">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a href="#modelos" class="nav-link">Nossos Modelos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#orcamento" class="nav-link">Orçamento</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                      </li>
+                    </ul>
+                  </div>                 
+                </div>
+              </nav>
+        </header>
+
+        <section class="container-fluid section1" > <!-- SECTION 1 -->    
+            <div class="row topo">
+                <img class="img-fluid" src="img/pexels-isabella-mendes.jpg" alt="Imagens de moto">
+
+                <div class="titulo col text-center align-self-center" id="navbar">
+                    <h1>Todos os modelos Harley <br> em um só lugar</h1>
+                    <a href="#orcamento"><button class="btn btn-danger" type="button">Faça um Orçamento</button></a>                   
+                </div>
+            </div>
+        </section><!-- /SECTION 1 -->
+
+        <section class="container-fluid marcador-container section2" id="modelos"> <!-- SECTION 2 -->
+            <div class="row modelos">
+                <div class="descricao1 col-lg-4">
+                    <h2 class="col-12 mt-5">Todos os modelos mais<br> raros da marca!</h2>
+
+                    <p class="mt-4 ml-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, qui voluptatem. Facere, alias itaque, neque possimus similique iste eius harum voluptatum perferendis deleniti error facilis ad ut cum quae quidem?</p>
+
+                    <a href="modelos.html"><button class="btn mt-5 ml-4 mb-5" type="button">Veja Todos Modelos</button></a>                    
+                </div>
+
+                <div class="modelo col-lg-8 d-flex mt-5 justify-content-center"> 
+                    <div class="modelo">
+                      <p>Lorem ipsum dolor sit amet consectetur et earum ipsaadipisicing elit. <br> Quaerat et earum ipsa sunt neque est.</p>
+                      <img class="img-fluid" src="img/1.png" alt="Harley1">
+                    </div>
+                </div>
+            </div>
+        </section><!-- /SECTION 2 -->
+
+        <section class="container-fluid section3" id="orcamento"> <!-- SECTION 3 -->            
+          <div class="row caixa-orcamento">
+              <img src="img/pexels-oleg-magni.jpg" alt="Imagens de moto">
+
+              <div class="col text-center caixa1-orcamento" >
+                <div class="orcamento" id="orcamento"> <!-- Orçamento -->
+                  <h2 class="mt-5 mb-4">Faça um Orçamento</h2>
+                  
+                  <div class="form-group">                   
+                    <input class="form-control " type="name" id="nome" placeholder="Digite seu nome" >
+                  </div>
+                  <div class="form-group">                  
+                    <input class="form-control" type="text" id="email-usuario" placeholder="Digite seu e-mail">
+                 </div>
+                 <input class="btn btn-danger enviar" type="submit" value="Enviar">
+                </div>
+
+                <div class="contato mt-5" id="contato"> <!-- Contato -->
+                  <h2>Entre em contato  <br> sempre haverá um agente para tirar suas duvidas!</h2>
+                  
+                  <div class="contatos">
+                    <a href="https://api.whatsapp.com/send?phone=5511966502947" target="_blanc">WhatsApp: (11) 966502947</a>
+                    <a href="mailto:harley@gmail.com" target="_blanc">Email: harley@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section><!-- /SECTION 3 -->
+
+        <footer>
+          <p>By Isadora Vanderlan - 2021.</p>
+        </footer>
+
+    </div><!-- /CONTAINER -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Our JS file -->
+    <script src="js/main.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
