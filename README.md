@@ -1,40 +1,31 @@
 # Bem-vindos :)
 
-[O DevChallenge](https://devchallenge.now.sh/) permite que você melhore suas habilidades!
+Ao meu projeto, este é um site simples de venda de moto.
 
+<br/>
 
-
-<img src="" width="380" height="380">
+![Presentation](https://github.com/IsadoraVanderlan/site-moto/blob/main/presentation.gif)
+<br/><br/>
 
 # Técnicos:
 
-HTML
-
-CSS
-
-Javascript
-
-Bootstrap
+- HTML
+- CSS
+- Bootstrap
+- Javascript
 
 
 # Cores:
 
-Laranja: #D2872C
-Gray: #766F68
-
-
-
-<img src="" width="380" height="380">
-
+- Cinza: #C4C4C4
 
 
 # Link Para Visualização do Site:
 
-<a href="">Click here to see the project</a>
-<br/><hr/>
+<a href="https://isadoravanderlan.github.io/site-moto/">Site Harley</a>
+<br/>
 
 
-
-# Desenvolimento!
-Este projeto foi criado e desenvolvido por mim, usando vários sites como inspiração, porem não seguindo nenhum designer completo de outros sites.
+# Desenvolvimento!
+Este projeto foi criado e desenvolvido por mim, usando como base de inspiração de layout, vários sites, porem não seguindo nenhum designer completo de outros sites.
 A criação deste site é com fins unicamente e exclusivamente para mostrar meus conhecimentos e habilidades em desenvolvimento web.
