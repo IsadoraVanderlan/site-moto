@@ -7,6 +7,11 @@ Ao meu projeto, este é um site simples de venda de moto.
 ![Presentation](https://github.com/IsadoraVanderlan/site-moto/blob/main/presentation.gif)
 <br/><br/>
 
+# Link Para Visualização do Site:
+
+<a href="https://isadoravanderlan.github.io/site-moto/">Site Harley</a>
+<br/>
+
 # Técnicos:
 
 - HTML
@@ -14,17 +19,9 @@ Ao meu projeto, este é um site simples de venda de moto.
 - Bootstrap
 - Javascript
 
-
 # Cores:
 
 - Cinza: #C4C4C4
-
-
-# Link Para Visualização do Site:
-
-<a href="https://isadoravanderlan.github.io/site-moto/">Site Harley</a>
-<br/>
-
 
 # Desenvolvimento!
 Este projeto foi criado e desenvolvido por mim, usando como base de inspiração de layout, vários sites, porem não seguindo nenhum designer completo de outros sites.
